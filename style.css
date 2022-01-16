@@ -1,0 +1,286 @@
+body{
+  font-family: Vollkorn, Serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  background-color: #F3F5F4; 
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'GlacialIndifferenceBold', Inter, Roboto, Sans-serif;
+}
+h1{
+  font-size: 58px;
+}
+@media screen and (max-width: 500px){
+  h1{
+    font-size: 32px;
+  }
+}
+h2{
+  font-size: 36px;
+}
+@media screen and (max-width: 500px) {
+  h2{
+    font-size: 28px;
+  }
+}
+p{
+  font-weight: 200;
+}
+@media screen and (max-width: 500px) {
+  p{
+    font-size: 16px;
+  }
+}
+a{
+  color: #0E302E;
+}
+
+/* custom css */
+.navbar{
+  background-color: #0E302E;
+  font-family: 'GlacialIndifferenceRegular', Inter, Roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.9);
+}
+.navbar .navbar-toggler{
+  font-size: 14px;
+}
+.navbar-brand{
+}
+.navbar-brand img{
+  width: 120px;
+  height: auto;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.navbar .navbar-nav li {
+  padding-right: 10px;
+}
+.navbar .navbar-nav li a:hover{
+  text-decoration: underline;
+}
+.btn{ 
+  font-family: 'GlacialIndifferenceRegular', Inter, Roboto, sans-serif; 
+  font-size: small;
+}
+/* feature section */
+#feature-section{ 
+  background-color: #F3F5F4; 
+  background: center center no-repeat;
+  background-size: cover;
+  color: #0E302E;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 600px;
+}
+@media screen and (max-width: 500px) {
+  #feature-section{ 
+    min-height: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+#inner-feature{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#feature-section img{
+}
+#about{
+}
+@media screen and (max-width: 500px) {
+  #about{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+#about h2{
+}
+#about p{
+  opacity: 0.8;
+  font-size: 22px;
+  font-weight: 200;
+}
+@media screen and (max-width: 500px) {
+  #about p{
+    font-size: 16px;
+  }
+}
+#about span{
+  margin-right: 15px;
+}
+#about a{
+  color: #0E302E;;
+}
+#about .fab, .fas{ 
+  font-size: x-large;
+}
+
+/* main */
+main{
+  padding-bottom: 100px;
+  background-color: #FFF;
+}
+main h5{
+  color: #0E302E;
+}
+
+/* TazBlock */
+#TazBlock{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 500px) {
+  #TazBlock h2{
+    font-size: 30px;
+  }
+}
+#TazBlock .card{
+  background-color: #FFF;
+  color: #0E302E;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  #TazBlock .card-text{
+    text-align: center;
+  }
+}
+
+/* youtube */
+#youtube{
+  margin-bottom: 150px;
+}
+#youtube-description{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#youtube a{
+  color: #FFF;
+}
+
+/* podcast */
+#podcast{
+  margin-bottom: 150px;
+}
+#podcast-description{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#podcast a{
+  color: #FFF;
+}
+
+/* gallery */
+#gallery-description{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#gallery a{
+  color: #FFF;
+}
+
+/* blog and books */
+#personal{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F3F5F4;
+}
+
+/* blog */
+#blog{
+  margin-bottom: 150px;
+}
+#blog-header h2{
+  text-align: left;
+}
+#blog a{
+  color: #FFF;
+}
+
+/* Books that influcened me */
+#books-header h2{
+  margin-bottom: 50px;
+  text-align: center;
+}
+#books .list-group-item{
+  font-size: 20px;
+  background-color: #F3F5F4;
+}
+@media screen and (max-width: 500px) {
+  #books .list-group-item{
+    font-size: 14px;
+  }
+}
+/* footer */
+footer{
+  background-color: #0E302E;
+  color: #FFF;
+  text-align: center;
+}
+footer a{
+  color: #FFF;
+}
+
+/* contact */
+footer #contact{
+  background-color: #FFF;
+  color: #0E302E;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer #contact h5{
+  font-family: Vollkorn, Serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: large;
+
+}
+footer #contact span{
+  display: inline-block;
+  margin-right: 15px;
+}
+footer #contact .fa-twitter{
+  color: #0E302E;
+  font-size: 25px;
+}
+footer #contact .fa-github{
+  color: #0E302E;
+  font-size: 25px;
+}
+footer #contact .fa-linkedin{
+  color: #0E302E;
+  font-size: 25px;
+}
+
+/* footnote */
+footer #footnote{
+  font-family: 'GlacialIndifferenceRegular', Inter, Roboto, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+footer #hosting{
+  font-size: 16px;
+  opacity: 0.6;
+}
+@media screen and (max-width: 500px) {
+  footer #hosting{
+    font-size: 10px;
+  }
+}
+footer #footnote a:hover{
+  color: #60798C;
+}
+footer #copyright{
+  font-size: 14px;
+}
